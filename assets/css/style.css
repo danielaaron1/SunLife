@@ -1,0 +1,9 @@
+body { font-family: 'Segoe UI', Arial, sans-serif; background-color: #f8f9fa; }
+.navbar-brand { font-weight: bold; }
+footer { font-size: 0.9rem; color: #888; }
+.card { box-shadow: 0 2px 8px rgba(0,0,0,0.04); }
+.timeline { position: relative; margin-left: 2rem; }
+.timeline-item { position: relative; margin-bottom: 2rem; }
+.timeline-dot { position: absolute; left: -30px; top: 10px; width: 16px; height: 16px; background: #ffc107; border-radius: 50%; border: 2px solid #fff; box-shadow: 0 0 0 2px #ffc107; }
+.timeline-content { background: #fff; padding: 1rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.04); }
+@media (max-width: 768px) { .timeline { margin-left: 0; } .timeline-dot { left: -20px; } }
